@@ -9,8 +9,10 @@
 
 * [llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb)
   > Fine tuning with PEFT package
-  > LoRA Fine tuning
-  > Partial Fine-Tuning (Adapter-based or Layer Freezing), applies LoRA to specific layers
+  > 
+  > LoRA（Low-Rank Adaptation）Fine tuning
+  > 
+  > Partial Fine-Tuning (Adapter-based or Layer Freezing), applies LoRA to specific layers 
 
 * [llm_prompt_tuning.ipynb](https://colab.research.google.com/drive/17UxHuZR7-4CKXqidlhpJEAN6bVG2awGp#scrollTo=OwoxB86g1Frp)
 
