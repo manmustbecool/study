@@ -21,12 +21,12 @@
   <blockquote>
   Prompt fine tuning
     
-  ```python
+  <code class="language-python">
   # prompt_tuning_init=PromptTuningInit.RANDOM,   # The added virtual tokens are initializad with random numbers or text
   prompt_tuning_init=PromptTuningInit.TEXT,
   prompt_tuning_init_text='a',
   num_virtual_tokens=6,                         # Number of virtual tokens to be prepend and trained.
-  ```
+  </code>
   
   Prefix fine tuning
   
@@ -35,7 +35,10 @@
 
 
 > [!NOTE]  
-> Highlights information 
+> Highlights information
+
+{: .note }
+### dfsfs
 
 
 
