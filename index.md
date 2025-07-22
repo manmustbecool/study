@@ -18,7 +18,7 @@
   LoRA（Low-Rank Adaptation）Fine tuning \
   Partial Fine-Tuning (Adapter-based or Layer Freezing), applies LoRA to specific layers  
 
-[llm_fine_tuning_prompt_prefix_lora.ipynb](https://colab.research.google.com/drive/17UxHuZR7-4CKXqidlhpJEAN6bVG2awGp#scrollTo=OwoxB86g1Frp){: .btn .btn-blue .mr-2 }
+[llm_fine_tuning_prompt_prefix_lora.ipynb](https://colab.research.google.com/drive/17UxHuZR7-4CKXqidlhpJEAN6bVG2awGp#scrollTo=OwoxB86g1Frp){: .btn .btn-blue .fs-6 }
 
   * Prompt fine tuning
   
