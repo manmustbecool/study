@@ -5,8 +5,10 @@
 ##  LLM
 
 * [llm_tokenizer.ipynb](https://colab.research.google.com/drive/1YXoxLfQ5CXiB0GivAuoe0RR1TVh-Yabe)
-  > text input -> tensor -> LLM -> tensor -> text ouput 
-
+  <blockquote>
+  text input -> tensor -> LLM -> tensor -> text ouput 
+  </blockquote>
+  
 * [llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb)
   {: .note }
   > Fine tuning with PEFT (Parameter-Efficient Fine-Tuning)
