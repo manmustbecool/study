@@ -28,5 +28,10 @@
   >
   > Lora fine tuning
 
+
+Here’s an explanation:
+
 {: .note }
-A paragraph
+This paragraph will be styled as a callout.
+
+Some more text below.
