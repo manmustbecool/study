@@ -46,6 +46,16 @@
   target_modules=["c_attn"],     # by default, LoRA targets the attention projection layers (e.g., q_proj, v_proj). can target just that for minimal intervention if we know the exact layer name (like c_attn in GPT-2),
   ```
 
+## Fine tuning with TRL (Transformer Reinforcement Learning)
+
+[trl.ipynb](https://colab.research.google.com/drive/1eXiFfzcwqzWC2vYcczVRqw1xrAxgEy4w#scrollTo=kdirKtFK77iE&uniqifier=1){: .btn  .fs-3 }
+
+SFT is like teaching a model specific facts and instructions, while DPO is like teaching it to understand and follow general preferences.
+
+* SFT (Supervised Fine-Tuning):  
+Data: Uses a dataset of question/answer pairs or instructions/responses, where the “correct” or desired response is labeled.  
+* DPO (Direct Preference Optimization):  
+Data: Uses pairwise data where two outputs are presented for the same input, and a preference is indicated (i.e., which output is better).  
 
 
 {: .note }
