@@ -1,6 +1,10 @@
 remote_theme: just-the-docs/just-the-docs
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
-  - jekyll-default-layout
+  - jekyll-remote-theme # add this line to the plugins list if you already have one - jekyll-default-layout
+  
 title: My study
 description: Study Notes
+
+just_the_docs:
+  custom_css:
+    - "assets/css/override.css"
