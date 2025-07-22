@@ -8,7 +8,8 @@
 
   text input -> tensor -> LLM -> tensor -> text ouput 
 
-  
+##  LLM fine tuning
+
 * [llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb)
 
   Fine tuning with PEFT (Parameter-Efficient Fine-Tuning)
@@ -25,13 +26,13 @@
   # prompt_tuning_init=PromptTuningInit.RANDOM,   # The added virtual tokens are initializad with random numbers or text
   prompt_tuning_init=PromptTuningInit.TEXT,
   prompt_tuning_init_text='a',
-  num_virtual_tokens=6,                         # Number of virtual tokens to be prepend and trained.
+  num_virtual_tokens=6,                           # Number of virtual tokens to be prepend and trained.
   ```
   
   Prefix fine tuning
+
   
   Lora fine tuning
-
 
 
 > [!NOTE]  
