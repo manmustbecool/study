@@ -6,19 +6,19 @@
 
 ###  Tokenizer
 
-[llm_tokenizer.ipynb](https://colab.research.google.com/drive/1YXoxLfQ5CXiB0GivAuoe0RR1TVh-Yabe){: .btn .btn-blue .mr-2}
+[llm_tokenizer.ipynb](https://colab.research.google.com/drive/1YXoxLfQ5CXiB0GivAuoe0RR1TVh-Yabe){: .btn .btn-blue .text-sm }
 
   text input -> tensor -> LLM -> tensor -> text ouput 
 
 ### Fine tuning
 
-[llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb){: .btn .btn-blue .mr-2}
+[llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb){: .btn .btn-blue .text-sm }
 
   Fine tuning with PEFT (Parameter-Efficient Fine-Tuning) \
   LoRA（Low-Rank Adaptation）Fine tuning \
   Partial Fine-Tuning (Adapter-based or Layer Freezing), applies LoRA to specific layers  
 
-[llm_fine_tuning_prompt_prefix_lora.ipynb](https://colab.research.google.com/drive/17UxHuZR7-4CKXqidlhpJEAN6bVG2awGp#scrollTo=OwoxB86g1Frp){: .btn .btn-purple .mr-2 }
+[llm_fine_tuning_prompt_prefix_lora.ipynb](https://colab.research.google.com/drive/17UxHuZR7-4CKXqidlhpJEAN6bVG2awGp#scrollTo=OwoxB86g1Frp){: .btn .btn-blue .mr-2 }
 
   * Prompt fine tuning
   
