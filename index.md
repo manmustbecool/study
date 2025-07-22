@@ -31,6 +31,11 @@
 
 Here’s an explanation:
 
+
+[!INFO]  
+Highlights information that users should take into account, even when skimming.
+
+
 > [!INFO]  
 > Highlights information that users should take into account, even when skimming.
 
