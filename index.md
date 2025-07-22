@@ -31,7 +31,7 @@
 
 Here’s an explanation:
 
-{: .note }
+[!NOTE]
 This paragraph will be styled as a callout.
 
 Some more text below.
