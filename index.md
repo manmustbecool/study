@@ -42,8 +42,8 @@
   * Lora fine tuning
 
   ```python
-  r=8,                           # higher rank (e.g. r=16) gives more capacity but uses more memory. 8 is good default value
-  lora_alpha=32,                 # how strongly the adapters modify the frozen weights. Lowering alpha (e.g. lora_alpha=16) makes updates softer
+  r=8,                           # The Rank, It defines the size of the two trainable matrices (A and B). (e.g. 4–8): lightweight, fast, less expressive. (e.g. 64–256): more expressive, but uses more memory and may overfit
+  lora_alpha=32,                 # how strongly the adapters modify the frozen weights. Typical heuristic: Set lora_alpha = 2 × r for balanced influence. If alpha is too low, the adapter barely nudges the model. If too high, it might overpower the base weights.
   lora_dropout=0.1,              # 0.1 means Randomly drops 10% of the LoRA activations during training to prevent overfitting
   target_modules=["c_attn"],     # by default, LoRA targets the attention projection layers (e.g., q_proj, v_proj). can target just that for minimal intervention if we know the exact layer name (like c_attn in GPT-2),
   ```
