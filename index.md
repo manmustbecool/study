@@ -21,7 +21,7 @@
 
 [llm_fine_tuning_prompt_prefix_lora.ipynb](https://colab.research.google.com/drive/17UxHuZR7-4CKXqidlhpJEAN6bVG2awGp#scrollTo=OwoxB86g1Frp){: .btn  .fs-3 }
 
-  * Prompt fine tuning
+  * Prompt tuning
   
   key configuration:
   
@@ -32,14 +32,14 @@
   num_virtual_tokens=6,                           # Number of virtual tokens to be prepend and trained. 
   ```
   
-  * Prefix fine tuning
+  * Prefix tuning
 
   ```python
   num_virtual_tokens=30,   # Longer prefixes can increase capacity but risk overfitting with limited data
   prefix_projection=True,  # Adds a two-layer MLP projection over the prefix embeddings. Adds expressive power to the prefix. improving task alignment and training stability.
   ```
 
-  * Lora fine tuning
+  * Lora tuning
 
   ```python
   r=8,                           # The Rank, It defines the size of the two trainable matrices (A and B). (e.g. 4–8): lightweight, fast, less expressive. (e.g. 64–256): more expressive, but uses more memory and may overfit
