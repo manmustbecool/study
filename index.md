@@ -48,8 +48,10 @@
   target_modules=["c_attn"],     # by default, LoRA targets the attention projection layers (e.g., q_proj, v_proj). can target just that for minimal intervention if we know the exact layer name (like c_attn in GPT-2),
   ```
 
+
+
 {: .note }
-> test {: .note }
+This is a note-style paragraph. It will appear in a styled callout box.
 
 
 
