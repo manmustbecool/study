@@ -23,8 +23,6 @@
 
   * Prompt tuning
   
-  key configuration:
-  
   ```python
   # prompt_tuning_init=PromptTuningInit.RANDOM,   # The added virtual tokens are initializad with RANDOM numbers or TEXT
   prompt_tuning_init=PromptTuningInit.TEXT,
