@@ -26,17 +26,17 @@
   key configuration:
   
   ```python
-  # prompt_tuning_init=PromptTuningInit.RANDOM,   # The added virtual tokens are initializad with random numbers or text
+  # prompt_tuning_init=PromptTuningInit.RANDOM,   # The added virtual tokens are initializad with RANDOM numbers or TEXT
   prompt_tuning_init=PromptTuningInit.TEXT,
   prompt_tuning_init_text='a',
-  num_virtual_tokens=6,                           # Number of virtual tokens to be prepend and trained.
+  num_virtual_tokens=6,                           # Number of virtual tokens to be prepend and trained. 
   ```
   
   * Prefix fine tuning
 
   ```python
   num_virtual_tokens=30,   # Longer prefixes can increase capacity but risk overfitting with limited data
-  prefix_projection=True,  # Adds a two-layer MLP projection over the prefix embeddings
+  prefix_projection=True,  # Adds a two-layer MLP projection over the prefix embeddings. Adds expressive power to the prefix. improving task alignment and training stability.
   ```
 
   * Lora fine tuning
