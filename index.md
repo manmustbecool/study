@@ -50,7 +50,7 @@
 
 
 > [!NOTE]
-> test
+> test{: .note }
 
 
 
