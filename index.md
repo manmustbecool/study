@@ -10,11 +10,10 @@
 
   text input -> tensor -> LLM -> tensor -> text ouput 
 
-### Fine tuning
+### Fine tuning with PEFT (Parameter-Efficient Fine-Tuning)
 
 [llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb){: .btn .btn-blue .fs-3 }
 
-  Fine tuning with PEFT (Parameter-Efficient Fine-Tuning) \
   LoRA（Low-Rank Adaptation）Fine tuning \
   Partial Fine-Tuning (Adapter-based or Layer Freezing), applies LoRA to specific layers  
 
