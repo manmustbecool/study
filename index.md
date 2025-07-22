@@ -18,7 +18,7 @@
 * [llm_fine_tuning_prompt_prefix_lora.ipynb](https://colab.research.google.com/drive/17UxHuZR7-4CKXqidlhpJEAN6bVG2awGp#scrollTo=OwoxB86g1Frp)
 
   > Prompt fine tuning
-  > ```
+  > ```python
   >   # prompt_tuning_init=PromptTuningInit.RANDOM,   # The added virtual tokens are initializad with random numbers or text
   >   prompt_tuning_init=PromptTuningInit.TEXT,
   >   prompt_tuning_init_text='a',
