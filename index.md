@@ -8,6 +8,7 @@
   > text input -> tensor -> LLM -> tensor -> text ouput 
 
 * [llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb)
+  {: .note }
   > Fine tuning with PEFT (Parameter-Efficient Fine-Tuning)
   > 
   > LoRA（Low-Rank Adaptation）Fine tuning
