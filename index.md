@@ -6,7 +6,7 @@
 
 ###  Tokenizer
 
-* [llm_tokenizer.ipynb](https://colab.research.google.com/drive/1YXoxLfQ5CXiB0GivAuoe0RR1TVh-Yabe)
+[llm_tokenizer.ipynb](https://colab.research.google.com/drive/1YXoxLfQ5CXiB0GivAuoe0RR1TVh-Yabe){: .btn }
 
   text input -> tensor -> LLM -> tensor -> text ouput 
 
