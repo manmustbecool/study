@@ -31,7 +31,15 @@
 
 Here’s an explanation:
 
-[!NOTE]
-This paragraph will be styled as a callout.
+> [!INFO]  
+> Highlights information that users should take into account, even when skimming.
 
-Some more text below.
+
+<blockquote style="border-left: 4px solid #ccc; padding: 10px;">
+  This is a styled blockquote using HTML.
+</blockquote>
+
+
+<blockquote>
+  This is a styled blockquote using HTML.
+</blockquote>
