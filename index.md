@@ -2,6 +2,24 @@
 
 [gradient_descent_and_derivative.ipynb](https://colab.research.google.com/drive/18IfySN0wKFizTiFYf9g0TGxjBFytah_z){: .btn .fs-3 }
 
+## RAG retrieval
+
+might use the Bi-Encoder for efficient retrieval, followed by the Cross-Encoder to refine the results. This hybrid approach combines the scalability of Bi-Encoders with the precision of Cross-Encoders.
+
+<img alt="image" src="https://github.com/user-attachments/assets/fd727d7a-2423-45af-9f35-46bbcad54cab" width="600" />
+
+**Bi-Encoder Model**  
+* Strengths:  
+Precomputed embeddings enable efficient large-scale retrieval.
+* Weaknesses:  
+Limited interaction between query and document during encoding can reduce retrieval precision.
+
+**Cross-Encoder Model**
+* Strengths:   
+Enables detailed query-document interaction using fine-grained attention.  
+* Weaknesses:   
+Significantly slower than Bi-Encoders—each query-document pair is encoded individually.
+
 ## LLM
 
 ###  Tokenizer
