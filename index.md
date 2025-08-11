@@ -1,7 +1,3 @@
-# Basic 
-
-[gradient_descent_and_derivative.ipynb](https://colab.research.google.com/drive/18IfySN0wKFizTiFYf9g0TGxjBFytah_z){: .btn .fs-3 }
-
 # RAG retrieval
 
 might use the Bi-Encoder for efficient retrieval, followed by the Cross-Encoder to refine the results. This hybrid approach combines the scalability of Bi-Encoders with the precision of Cross-Encoders.
