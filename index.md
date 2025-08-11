@@ -1,8 +1,8 @@
-## Basic 
+# Basic 
 
 [gradient_descent_and_derivative.ipynb](https://colab.research.google.com/drive/18IfySN0wKFizTiFYf9g0TGxjBFytah_z){: .btn .fs-3 }
 
-## RAG retrieval
+# RAG retrieval
 
 might use the Bi-Encoder for efficient retrieval, followed by the Cross-Encoder to refine the results. This hybrid approach combines the scalability of Bi-Encoders with the precision of Cross-Encoders.
 
@@ -20,7 +20,7 @@ Enables detailed query-document interaction using fine-grained attention.
 * Weaknesses:   
 Significantly slower than Bi-Encoders—each query-document pair is encoded individually.
 
-## LLM
+# LLM
 
 ###  Tokenizer
 
@@ -64,7 +64,7 @@ Significantly slower than Bi-Encoders—each query-document pair is encoded indi
   target_modules=["c_attn"],     # by default, LoRA targets the attention projection layers (e.g., q_proj, v_proj). can target just that for minimal intervention if we know the exact layer name (like c_attn in GPT-2),
   ```
 
-## Fine tuning with TRL (Transformer Reinforcement Learning)
+### Fine tuning with TRL (Transformer Reinforcement Learning)
 
 [trl.ipynb](https://colab.research.google.com/drive/1eXiFfzcwqzWC2vYcczVRqw1xrAxgEy4w#scrollTo=kdirKtFK77iE&uniqifier=1){: .btn  .fs-3 }
 
