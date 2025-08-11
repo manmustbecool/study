@@ -76,6 +76,12 @@ Data: Uses a dataset of question/answer pairs or instructions/responses, where t
 Data: Uses pairwise data where two outputs are presented for the same input, and a preference is indicated (i.e., which output is better).  
 
 
+# Other
+
+[Fibonacci_sequence.ipynb](https://colab.research.google.com/drive/1ANfXXGqvR-mIn3e1YmbY7XGI6hJlxqZU#scrollTo=jCo6EMALztJT){: .btn  .fs-3 }
+
+implement Fibonacci sequence in three different way
+
 {: .note }
 This is a note-style paragraph. It will appear in a styled callout box.
 
