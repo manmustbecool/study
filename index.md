@@ -22,7 +22,7 @@ Significantly slower than Bi-Encoders—each query-document pair is encoded indi
 
 [llm_tokenizer.ipynb](https://colab.research.google.com/drive/1YXoxLfQ5CXiB0GivAuoe0RR1TVh-Yabe){: .btn .fs-3 }
 
-  text input -> tensor -> LLM -> tensor -> text ouput 
+  text_input ->  tensor_input: tokenizer(text_input) -> tensor_ouput: LLM_generate(tensor_input) -> text_ouput: tokenizer_decoder(tensor_ouput) 
 
 ### Fine tuning with PEFT (Parameter-Efficient Fine-Tuning)
 
