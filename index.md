@@ -23,8 +23,24 @@ Significantly slower than Bi-Encoders—each query-document pair is encoded indi
 [llm_tokenizer.ipynb](https://colab.research.google.com/drive/1YXoxLfQ5CXiB0GivAuoe0RR1TVh-Yabe){: .btn .fs-3 }
 
   text_input -> **Tokenizer** -> tensor -> **LLM_Model** -> tensor -> **Tokenizer_decoder** -> text_ouput
-  
-### Fine tuning with PEFT (Parameter-Efficient Fine-Tuning)
+
+
+## Fine tuning
+
+General approach:   
+* 1/ SFT (Supervised Fine-Tuning):  
+-- on instructions to adapt the model to the target domain   
+-- Data: Uses a dataset of question/answer pairs or instructions/responses, where the “correct” or desired response is labeled.    
+* 2/ Reinforcement Learning with Human Feedback (RLHF) or DPO (Direct Preference Optimization):   
+-- preference alignment methods to increase the likelihood of generating preferred responses over rejected ones.  
+-- Data for DPO: Uses pairwise data where two outputs are presented for the same input, and a preference is indicated (i.e., which output is better).    
+
+or   
+
+* Odds Ratio Preference Optimization (ORPO):  
+-- combining instruction tuning and preference alignment into a single, monolithic training process
+
+### SFT with PEFT (Parameter-Efficient Fine-Tuning)
 
 [llm_finetuning_lora.ipynb](https://colab.research.google.com/drive/1Eb8Ry7W3P2XBwhYWltg50z_aLaja2vYb){: .btn .fs-3 }
 
@@ -60,16 +76,10 @@ Significantly slower than Bi-Encoders—each query-document pair is encoded indi
   target_modules=["c_attn"],     # by default, LoRA targets the attention projection layers (e.g., q_proj, v_proj). can target just that for minimal intervention if we know the exact layer name (like c_attn in GPT-2),
   ```
 
-### Fine tuning with TRL (Transformer Reinforcement Learning)
+### SFT with TRL (Transformer Reinforcement Learning)
 
 [trl.ipynb](https://colab.research.google.com/drive/1eXiFfzcwqzWC2vYcczVRqw1xrAxgEy4w#scrollTo=kdirKtFK77iE&uniqifier=1){: .btn  .fs-3 }
 
-SFT is like teaching a model specific facts and instructions, while DPO is like teaching it to understand and follow general preferences.
-
-* SFT (Supervised Fine-Tuning):  
-Data: Uses a dataset of question/answer pairs or instructions/responses, where the “correct” or desired response is labeled.  
-* DPO (Direct Preference Optimization):  
-Data: Uses pairwise data where two outputs are presented for the same input, and a preference is indicated (i.e., which output is better).  
 
 
 
