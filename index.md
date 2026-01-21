@@ -32,7 +32,7 @@ General approach:
 -- on instructions to adapt the model to the target domain   
 -- Data: Uses a dataset of question/answer pairs or instructions/responses, where the “correct” or desired response is labeled.
 
-* **RLHF (Reinforcement Learning with Human Feedback) **
+* **RLHF (Reinforcement Learning with Human Feedback)**
   * **DPO (Direct Preference Optimization)**:   
   -- preference alignment methods to increase the likelihood of generating preferred responses over rejected ones.  
   -- Data for DPO: Uses pairwise data where two outputs are presented for the same input, and a preference is indicated (i.e., which output is better).
