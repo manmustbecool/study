@@ -28,17 +28,19 @@ Significantly slower than Bi-Encoders—each query-document pair is encoded indi
 ## Fine tuning
 
 General approach:   
-* 1/ SFT (Supervised Fine-Tuning):  
+* **SFT (Supervised Fine-Tuning)**:  
 -- on instructions to adapt the model to the target domain   
--- Data: Uses a dataset of question/answer pairs or instructions/responses, where the “correct” or desired response is labeled.    
-* 2/ Reinforcement Learning with Human Feedback (RLHF) or DPO (Direct Preference Optimization):   
--- preference alignment methods to increase the likelihood of generating preferred responses over rejected ones.  
--- Data for DPO: Uses pairwise data where two outputs are presented for the same input, and a preference is indicated (i.e., which output is better).    
+-- Data: Uses a dataset of question/answer pairs or instructions/responses, where the “correct” or desired response is labeled.
 
-or   
-
-* Odds Ratio Preference Optimization (ORPO):  
--- combining instruction tuning and preference alignment into a single, monolithic training process
+* **RLHF (Reinforcement Learning with Human Feedback) **
+  * **DPO (Direct Preference Optimization)**:   
+  -- preference alignment methods to increase the likelihood of generating preferred responses over rejected ones.  
+  -- Data for DPO: Uses pairwise data where two outputs are presented for the same input, and a preference is indicated (i.e., which output is better).
+        
+  * **Odds Ratio Preference Optimization (ORPO)**:  
+  -- combining instruction tuning and preference alignment into a single, monolithic training process
+  
+  * **GDPO**
 
 ### SFT with PEFT (Parameter-Efficient Fine-Tuning)
 
